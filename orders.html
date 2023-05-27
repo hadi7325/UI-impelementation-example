@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/responcive.css">
+    <link rel="stylesheet" href="pro/css/all.css">
+    <link rel="stylesheet" href="style/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+
+    <section class="orders">
+
+        <div class="container">
+            <div class="title">پنل کاربری</div>
+            <div class="all-items"></div>
+            <div class="row">
+                <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-12 col-sm-12">
+                    <div class="filter-product">
+
+                        <span>پنل کاربری</span>
+                        <div class="filter-box">
+                            <ul>
+
+                                <li class="tab-filter active " data-id="orders">سفارشات</li>
+                                <li class="tab-filter " data-id="profile">پروفایل</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-xxl-9 col-xl-9 col-lg-9 col-md-12 col-sm-12 profile">
+                    <div class="row">
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                            <div class="user-data-item">
+                                <label for="">نام</label>
+                                <div class="user-item-input">
+                                    <div class="name">مریم</div>
+                                    <input type="hidden" data-value="name">
+                                    <div class="edit" data-value="name"><i class="fa-light fa-pen-to-square"></i>
+                                        <div class="text">ویرایش</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                            <div class="user-data-item">
+                                <label for=""> نام و نام خانوادگی</label>
+                                <div class="user-item-input">
+                                    <div class="name">جلالی</div>
+                                    <input type="hidden" data-value="family">
+                                    <div class="edit" data-value="family"><i class="fa-light fa-pen-to-square"></i>
+                                        <div class="text">ویرایش</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                            <div class="user-data-item">
+                                <label for="">نام کاربری</label>
+                                <div class="user-item-input">
+                                    <div class="name">maryam_ef</div>
+                                    <input type="hidden" data-value="user">
+                                    <div class="edit" data-value="user"><i class="fa-light fa-pen-to-square"></i>
+                                        <div class="text">ویرایش</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                            <div class="user-data-item">
+                                <label for="">روش بازگرداندن مبلغ</label>
+                                <div class="user-item-input">
+                                    <div class="name">روش بازگرداندن مبلغ خود را انخاب کنید</div>
+                                    <input type="hidden">
+                                    <div class="add" data-value="cach"><i class="fas fa-plus"></i>
+                                        <div class="text" data-value="cach">افزودن</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-md-12">
+                            <div class="user-data-item">
+                                <label for="">استان </label>
+                                <div class="user-item-input">
+                                    <div class="name">مازندران</div>
+                                    <input type="hidden" data-value="state">
+                                    <div class="edit" data-value="state"><i class="fa-light fa-pen-to-square"></i>
+                                        <div class="text">ویرایش</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-md-12">
+                            <div class="user-data-item">
+                                <label for="">شهر </label>
+                                <div class="user-item-input">
+                                    <div class="name">نوشهر</div>
+                                    <input type="hidden" data-value="city">
+                                    <div class="edit" data-value="city"><i class="fa-light fa-pen-to-square"></i>
+                                        <div class="text">ویرایش</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-4 col-xl-4 col-lg-6 col-md-6 col-md-12">
+                            <div class="user-data-item">
+                                <label for="">تارخ تولد </label>
+                                <div class="user-item-input date">
+                                    <div class="name">maryam_ef</div>
+
+                                    <input type="hidden" data-value="birth" class="date-input" maxlength="2"
+                                        oninput="this.value=this.value.replace(/[^0-9]/g,'');" />
+                                    <input type="hidden" data-value="birth" class="date-input" maxlength="2"
+                                        oninput="this.value=this.value.replace(/[^0-9]/g,'');" />
+                                    <input type="hidden" data-value="birth" class="date-input" maxlength="4"
+                                        oninput="this.value=this.value.replace(/[^0-9]/g,'');" />
+                                    <div class="edit" data-value="birth"><i class="fas fa-plus"></i>
+                                        <div class="text">ویرایش</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-md-12">
+                            <div class="user-data-item">
+                                <label for="">شماره موبایل </label>
+                                <div class="credit">تایید شده</div>
+                                <div class="user-item-input">
+                                    <div class="name">0911 325 1265</div>
+                                    <input type="hidden" data-value="number">
+                                    <div class="edit" data-value="number"><i class="fa-light fa-pen-to-square"></i>
+                                        <div class="text">ویرایش</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-md-12">
+                            <div class="user-data-item">
+                                <label for=""> آدرس ایمیل </label>
+                                <div class="credit not">تایید نشده</div>
+                                <div class="user-item-input">
+                                    <div class="name">maryam325@gmail.com</div>
+                                    <input type="hidden" data-value="email">
+                                    <div class="edit" data-value="email"><i class="fa-light fa-pen-to-square"></i>
+                                        <div class="text">ویرایش</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xxl-9 col-xl-9 col-lg-9 col-md-12 col-sm-12 orders-items active">
+                    <div class="final-factor-table">
+                        <div class="title-factor">
+                            <div class="product-name">تاریخ</div>
+                            <div class="product-price">کد پیگیری</div>
+                            <div class="product-discount">شماره فاکتور</div>
+                            <div class="product-total-price">قیمت کل</div>
+                        </div>
+                        <div class="order-box">
+                            <div class="product-factor" data-id="1">
+                                <div class="history">
+                                    <div class="name">26 تیر 14000</div>
+                                </div>
+                                <div class="code">
+                                    <p>12456464</p>
+                                </div>
+
+                                <div class="factor-number">5656565</div>
+                                <div class="total-price">
+                                    <p>350,000</p><span>تومان</span>
+                                </div>
+                                <div class="open-order" data-id="1"><i class="fa-solid fa-caret-down"></i></div>
+                            </div>
+                            <div class="product-factor-desc" data-status="1">
+
+                                <div class="product-order">
+                                    <div class="img item"><img src="./images/produact/honey2.png" alt="عسل"></div>
+                                    <div class="name item">عسل طبیعی</div>
+                                    <div class="descount item">10%</div>
+                                    <div class="price item">
+                                        <p>120,000</p><span>تومان</span>
+                                    </div>
+                                </div>
+                                <div class="product-order">
+                                    <div class="img item"><img src="./images/produact/milk1.png" alt="عسل"></div>
+                                    <div class="name item">شیر طبیعی</div>
+                                    <div class="descount item">10%</div>
+                                    <div class="price item">
+                                        <p>75,000</p><span>تومان</span>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="order-box">
+                            <div class="product-factor" data-id="2">
+                            <div class="history">
+                                <div class="name">1 مهر 1399</div>
+                            </div>
+                            <div class="code">
+                                <p>12456464</p>
+                            </div>
+
+                            <div class="factor-number">5656565</div>
+                            <div class="total-price">
+                                <p>350,000</p><span>تومان</span>
+                            </div>
+                            <div class="open-order" data-id="2"><i class="fa-solid fa-caret-down"></i></div>
+                        </div>
+                        <div class="product-factor-desc" data-status="2">
+
+                            <div class="product-order">
+                                <div class="img item"><img src="./images/produact/honey2.png" alt="عسل"></div>
+                                <div class="name item">عسل طبیعی</div>
+                                <div class="descount item">10%</div>
+                                <div class="price item">
+                                    <p>120,000</p><span>تومان</span>
+                                </div>
+                            </div>
+                            <div class="product-order">
+                                <div class="img item"><img src="./images/produact/milk1.png" alt="عسل"></div>
+                                <div class="name item">شیر طبیعی</div>
+                                <div class="descount item">10%</div>
+                                <div class="price item">
+                                    <p>75,000</p><span>تومان</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <script src="./js/orders.js"></script>
+    <script src="./js/user.js"></script>
+</body>
+
+
+</html>

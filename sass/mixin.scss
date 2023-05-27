@@ -1,0 +1,28 @@
+@mixin flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin errorStyle {
+    color: red;
+    position: absolute;
+    font-size: $font-sm;
+    bottom: -20px;
+    right: 10px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+@mixin btnSubmit {
+    border: none;
+    padding: 5px 20px;
+    background-color: $mainColor;
+    font-family: "kalamehweb";
+    color: $backColor;
+    border-radius: 50px;
+  
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+

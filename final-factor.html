@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>shopping-bag</title>
+  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style/responcive.css">
+  <link rel="stylesheet" href="pro/css/all.css">
+  <link rel="stylesheet" href="style/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+  <div class="overlay"></div>
+  <div class="address-pop-op">
+    <div class="title">آدرس</div>
+    <div class="address-group">
+      <input type="text" placeholder="استان" name="state">
+      <input type="text" placeholder="شهر" name="city">
+      <input type="number" min="16" max="16" placeholder="کد پستی" name="post">
+      <textarea type="text" placeholder="آدرس" name="address"></textarea>
+       <textarea name="desc" placeholder="توضیحات"  ></textarea>
+       <button><a href="">ثبت</a></button>
+    </div>
+  </div>
+
+  <section class="final-factor">
+    <div class="container">
+      <div class="title">سبد خرید</div>
+      <div class="row">
+        <div class="col-xxl-8 col-xl-8 col-lg-8 col-ms-12 col-sm-12"data-aos="fade-left">
+          <div class="final-factor-table">
+            <div class="title-factor">
+              <div class="product-name">محصول</div>
+              <div class="product-price">قیمت واحد</div>
+              <div class="product-count">تعداد</div>
+              <div class="product-discount">تخفیف</div>
+              <div class="product-total-price">قیمت کل</div>
+            </div>
+            <div class="product-factor">
+              <div class="product-name">
+                <img src="./images/produact/honey.png" alt="">
+                <div class="name">پنیر گوسفندی</div>
+              </div>
+              <div class="price">
+                <p>200,000</p><span>تومان</span>
+              </div>
+              <div class="count">3</div>
+              <div class="discount">10%</div>
+              <div class="total-price">
+                <p>350,000</p><span>تومان</span>
+              </div>
+            </div>
+            <div class="product-factor">
+              <div class="product-name">
+                <img src="./images/produact/cheese.png" alt="">
+                <div class="name">پنیر گوسفندی</div>
+              </div>
+              <div class="price">
+                <p>200,000</p><span>تومان</span>
+              </div>
+              <div class="count">3</div>
+              <div class="discount">10%</div>
+              <div class="total-price">
+                <p>350,000</p><span>تومان</span>
+              </div>
+            </div>
+            <div class="product-factor">
+              <div class="product-name">
+                <img src="./images/produact/milk1.png" alt="">
+                <div class="name">پنیر گوسفندی</div>
+              </div>
+              <div class="price">
+                <p>200,000</p><span>تومان</span>
+              </div>
+              <div class="count">3</div>
+              <div class="discount">10%</div>
+              <div class="total-price">
+                <p>350,000</p><span>تومان</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xxl-4 col-xl-4 col-lg-4 col-mmd-12 col-sm-12"data-aos="fade-right">
+          <div class="payment">
+            <div class="title">مبلغ قابل پرداخت</div>
+            <div class="payment-final-price">
+              <div class="total">مجموع</div>
+              <div class="price">
+                <p>0</p><span>تومان</span>
+              </div>
+            </div>
+            <div class="ruls">
+              <input type="checkbox">
+              <span>شرایط وقوانین خرید از کی نی نا را مطالعه کرده و می پذیرم</span>
+            </div>
+            <button class="final-pay"><a href="">ثبت نهایی و پرداخت</a></button>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="address">
+           <div class="address-text">
+            <span>آدرس : </span>
+            <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم</p>
+           </div>
+           <div class="edit-address"><span>ویرایش</span><i class="fas fa-edit"></i></div>
+          </div>
+        </div>
+      </div>
+  </section>
+ 
+</body>
+
+<script src="js/final-factor.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration : 1000,
+    once: true,
+  });
+</script>
